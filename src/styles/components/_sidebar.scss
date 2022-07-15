@@ -1,0 +1,87 @@
+nav {
+    width: 60px;
+    height: 90%;
+    transition: .5s;
+    overflow: hidden;
+    border-radius: 0 12px 12px 0;
+    box-shadow: 5px 5px 30px 0 rgba(69, 169, 255, 0.24);
+
+
+    ul {
+        padding: 20px 0;
+
+        li {
+            list-style: none;
+            padding: 12px 0;
+
+            &:first-child{
+                padding-top: 0;
+            }
+
+            a {
+                font-size: 16px;
+                color: #152062;
+
+                img{
+                    min-width: 61px;
+                    height: 30px;
+                }
+
+                .terminos{
+                    font-size: 9px;
+                    letter-spacing: 0.18px;
+                    color: rgba(21, 32, 98, 0.5);
+                } 
+            }
+
+            a.bars{
+                cursor: pointer;
+            }
+
+            a.enlace-title{
+                align-items: flex-start !important;
+
+                span{
+                    width: 8px;
+                    height: 8px;
+                    background-image: linear-gradient(to right, #fd6a91 0%, #ff4778 100%);
+                    border-radius: 50%;
+                    position: fixed;
+                    left: 33px;
+                    top: 111px;
+                }
+
+                div.info{
+                    .nombre {
+                        position: relative;
+                        font-size: 18px;
+                        color: #152062;
+                        line-height: 20px;
+    
+                        span{
+                            font-size: 10px;
+                            line-height: normal;
+                            color: rgba(21, 32, 98, 0.5);
+                        }
+                    } 
+                }
+
+                .ultimo-acceso{
+                    font-size: 9px;
+                    line-height: normal;
+                    text-align: left;
+                    letter-spacing: 0.13px;
+                    color: rgba(21, 32, 98, 0.5);
+                }
+            }
+        }
+    }
+}
+
+.mostrar-menu {
+    width: 210px;
+}
+
+
+
+

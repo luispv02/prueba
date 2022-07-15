@@ -1,0 +1,94 @@
+
+.datos{
+    box-shadow: 5px 5px 30px 0 rgba(69, 169, 255, 0.24);
+    border-radius: 20px;
+
+    .title{
+
+        h2{
+            color: #152062;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+    }
+
+    form{
+        p.nacionalidad{
+            color: #152062;
+        }
+    
+        input{
+            border-radius: 10px;
+            border: solid 0.5px rgba(21, 32, 98, 0.05) !important;
+            background-color: #45a9ff0f !important;
+            font-size: 15px !important;
+
+            &:focus{
+                box-shadow: none;
+                border: solid 1px rgba(26, 117, 195, 0.4) !important;
+            }
+
+            &:focus ~ img{
+                filter: contrast(1);
+                transition: .5s;
+            }
+        }
+
+        input[type="date"]::-webkit-calendar-picker-indicator{
+            background: none;
+        }
+    
+        input[type="radio"]{
+            margin-left: 30px;   
+        }
+    
+        span{
+            padding-left: 10px;
+            color: rgba(21, 32, 98, 0.5);
+        }
+    
+        input[type="submit"]{
+            border-radius: 10px;
+            box-shadow: 0 10px 20px 0 rgba(69, 169, 255, 0.24);
+            background-color: #0084d6 !important;
+        }
+    
+        div{
+            position: relative;
+    
+            img{
+                width: 22px;
+                position: absolute;
+                top: 8px;
+                right: 20px;
+                filter: contrast(0)
+
+            }
+        }
+    }
+}
+
+.buttons{
+
+    .button{
+        
+        position: relative;
+
+        button{
+            background-image: linear-gradient(to top, rgba(69, 169, 255, 0.12), rgba(69, 169, 255, 0));
+            border-radius: 10px;
+            border: solid 1px rgba(26, 117, 195, 0.4);
+            color: #152062;
+            font-weight: 500;
+            padding: 10px 60px;
+            text-align: left;
+        }
+
+        img{
+            width: 30px;
+            position: absolute;
+            top: 8px;
+            left: 20px;
+        }
+    }
+}

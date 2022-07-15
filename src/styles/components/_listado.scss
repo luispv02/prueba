@@ -1,0 +1,156 @@
+.card{
+    width: 90% !important;
+    border-radius: 20px;
+    border: solid 1px rgba(26, 117, 195, 0.4);
+    background-image: linear-gradient(to bottom, rgba(69, 169, 255, 0.12), rgba(69, 169, 255, 0));
+    padding: 18px 15px;
+
+    .card-top{
+
+        width: 100%;
+        height: 84px;
+
+        position: relative;
+
+        h2{
+            font-family: Outfit;
+            font-size: 20px;
+            text-align: center;
+            color: #152062;
+        }
+
+        p{
+            color: rgba(21, 32, 98, 0.5);
+            font-size: 14px;
+            font-weight: 600;
+            display: flex;
+
+            position: absolute;
+            bottom: 7px;
+            left: 10px;
+
+            img{
+               margin-right: 10px;
+               filter: invert(42%) sepia(66%) saturate(3328%) hue-rotate(320deg) brightness(105%) contrast(101%);
+            }
+        }
+    }
+
+    img.card-img{
+        width: 100%;
+        height: 130px;
+
+    }
+
+    .barra-progreso{
+        position: relative;
+
+        .progress{
+            height: 8px;
+            box-shadow: inset 0px 1px 3px 0px;
+    
+            .progress-bar{
+                background-image: linear-gradient(to right, #ff87a7, #ff4778);
+                
+            }
+        }
+
+        span{
+            font-size: 12px;
+            font-weight: 800;
+            color: #ff4778;
+            position: absolute;
+        }
+
+        span.centro-negocios-barra-cantidad{
+            left: 30%;
+        }
+
+        span.central-park-barra-cantidad{
+            left: 75%;
+        }
+
+        span.bugambilias-barra-cantidad{
+            left: 40%;
+        }
+
+        span.lorem-barra-cantidad{
+            left: 90%;
+        }
+    }
+
+    .card-body{
+        
+        margin: 10px 0;
+
+        .price{
+            margin: 12px 0;
+            font-family: Outfit;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            color: #1a75c3;
+        }
+
+        .rentabilidad-icono{
+            display: flex;
+            justify-content: center;
+
+            img{
+                width: 35px;
+            }
+
+            .rentabilidad{
+                margin-left: 10px;
+
+                p:first-child{
+                    font-size: 12px;
+                    color: rgba(21, 32, 98, 0.5);
+                }
+
+                p:last-child{
+                    color: #4ec33e;
+                    font-size: 15px;
+                    font-weight: 600;
+                    padding-left: 12px;
+                }
+            }  
+        }
+
+        .card-text{
+            font-family: Outfit;
+            font-size: 12px;
+            line-height: normal;
+            color: #152062;
+
+            a{
+                font-weight: 600;
+            }
+        }
+
+    }
+
+    .card-footer{
+            
+        button{
+            font-weight: 600;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px 0 rgba(69, 169, 255, 0.6);
+            background-color: #0084d6;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 0;
+
+            img{
+                filter: invert(1);
+            }
+        }
+    }
+}
+
+.slick-prev:before, .slick-next:before {
+  color: rgb(10, 10, 10) !important;
+}
